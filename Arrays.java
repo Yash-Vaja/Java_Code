@@ -22,7 +22,7 @@ public class Arrays {
         Function.outputArray(marks);
         */
         
-        /*//Linear Search
+        /*//Linear Search     (in function.java code is on line 590) 
         int key = sc.nextInt();
         int index = Function.linearSearchNumber(numbers, key);
         if(index ==  -1){
