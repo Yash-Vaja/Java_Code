@@ -110,12 +110,13 @@ public class DandConquer {
 
     //search in sorted rotated array
     public static int search(int arr[],int target,int si,int ei) {
-        int mid = si + (ei-si)/2;
         //base case
         if(si > ei){
             return -1;
         }
 
+        int mid = si + (ei-si)/2;
+        
         //work
         if(arr[mid] == target){
             return mid;
