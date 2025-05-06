@@ -98,9 +98,11 @@ public class BasicSorting {
         System.out.println(Arrays.toString(arr2));
 */
 
+/*
         // Counting sort
         int[] arr3 = {1,4,1,3,2,4,7};
         countingSort(arr3);
         System.out.println(Arrays.toString(arr3));
+*/
     }
 }
